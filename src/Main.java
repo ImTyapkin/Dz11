@@ -7,7 +7,7 @@ public class Main {
         Scanner input = new Scanner(in);
         System.out.println("Ввод первого числа для записи в строковую переменную: ");
         int i1 = input.nextInt(); // вопрос 1
-        //System.out.println(new Integer(i1).toString());
+        //System.out.println(String.valueOf(i1)); один из вариантов
         String Odin;
         Odin = Integer.toString(i1);
         System.out.println(Odin);
